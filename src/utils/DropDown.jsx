@@ -27,8 +27,8 @@ export class DropDown extends React.Component {
     return (
       <div className="dropdown-container">
         <ul className="dropdown">
-          {dropDownList.map((item) => (
-            <li key={item.lable}>
+          {dropDownList.map((item, index) => (
+            <li key={index}>
               <Link to={item.link} onClick={this.props.onClickCallback}>
                 {item.label}
               </Link>

@@ -21,25 +21,36 @@ class Navigation extends React.Component {
   }
   renderDesktopNavigation() {
     const researchDropDownList = [
-      { label: "Interests", link: "/interests" },
-      { label: "Publications", link: "/publications" },
-      { label: "People", link: "/people" },
+      {
+        label: "Interests",
+        link: "/saisivakumarp/saisivakumar.github.io/interests",
+      },
+      {
+        label: "Publications",
+        link: "/saisivakumarp/saisivakumar.github.io/publications",
+      },
+      { label: "People", link: "/saisivakumarp/saisivakumar.github.io/people" },
     ];
 
     const teachingDropDownList = [
-      { label: "Courses", link: "/courses" },
-      { label: "Philosophy & Diversity", link: "/philosophy" },
+      {
+        label: "Courses",
+        link: "/saisivakumarp/saisivakumar.github.io/courses",
+      },
+      {
+        label: "Philosophy & Diversity",
+        link: "/saisivakumarp/saisivakumar.github.io/philosophy",
+      },
     ];
 
     const accoladesDropDownList = [
-      { label: "Awards & Scholarships", link: "/awards" },
-      { label: "Grants", link: "/grants" },
+      {
+        label: "Awards & Scholarships",
+        link: "/saisivakumarp/saisivakumar.github.io/awards",
+      },
+      { label: "Grants", link: "/saisivakumarp/saisivakumar.github.io/grants" },
     ];
 
-    const serviceDropDownList = [
-      { label: "University Service", link: "/university-service" },
-      { label: "Community Service", link: "/community-service" },
-    ];
     const customClassName = this.props.isMobile
       ? "mobile-nav-bar-list"
       : "desktop-nav-bar-list";
@@ -48,7 +59,7 @@ class Navigation extends React.Component {
       <ul className={customClassName}>
         <li className="list-item">
           <Link
-            to={"/home"}
+            to={"/saisivakumarp/saisivakumar.github.io/home"}
             className="dropdown-wrapper"
             onClick={this.onClickCallback}
           >
@@ -73,7 +84,7 @@ class Navigation extends React.Component {
         </li>
         <li className="list-item">
           <Link
-            to={"/activities"}
+            to={"/saisivakumarp/saisivakumar.github.io/activities"}
             className="dropdown-wrapper"
             onClick={this.onClickCallback}
           >
@@ -91,7 +102,7 @@ class Navigation extends React.Component {
         </li>
         <li className="list-item">
           <Link
-            to={"/service"}
+            to={"/saisivakumarp/saisivakumar.github.io/service"}
             className="dropdown-wrapper"
             onClick={this.onClickCallback}
           >
@@ -100,7 +111,7 @@ class Navigation extends React.Component {
         </li>
         <li className="list-item">
           <Link
-            to={"/gallery"}
+            to={"/saisivakumarp/saisivakumar.github.io/gallery"}
             className="dropdown-wrapper"
             onClick={this.onClickCallback}
           >

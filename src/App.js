@@ -24,18 +24,55 @@ export const App = () => {
           <div className="main-container">
             <Navigation></Navigation>
             <Switch>
-              <Route path="/" component={Home} exact />
-              <Route path="/home" component={Home} />
-              <Route path="/courses" component={Courses} />
-              <Route path="/philosophy" component={Philosophy} />
-              <Route path="/interests" component={Interests} />
-              <Route path="/publications" component={Publications} />
-              <Route path="/people" component={People} />
-              <Route path="/activities" component={Activities} />
-              <Route path="/grants" component={Grants} />
-              <Route path="/awards" component={Awards} />
-              <Route path="/service" component={Service} />
-              <Route path="/gallery" component={Gallery} />
+              <Route
+                path="/saisivakumarp/saisivakumar.github.io/"
+                component={Home}
+                exact
+              />
+              <Route
+                path="/saisivakumarp/saisivakumar.github.io/home"
+                component={Home}
+              />
+              <Route
+                path="/saisivakumarp/saisivakumar.github.io/courses"
+                component={Courses}
+              />
+              <Route
+                path="/saisivakumarp/saisivakumar.github.io/philosophy"
+                component={Philosophy}
+              />
+              <Route
+                path="/saisivakumarp/saisivakumar.github.io/interests"
+                component={Interests}
+              />
+              <Route
+                path="/saisivakumarp/saisivakumar.github.io/publications"
+                component={Publications}
+              />
+              <Route
+                path="/saisivakumarp/saisivakumar.github.io/people"
+                component={People}
+              />
+              <Route
+                path="/saisivakumarp/saisivakumar.github.io/activities"
+                component={Activities}
+              />
+              <Route
+                path="/saisivakumarp/saisivakumar.github.io/grants"
+                component={Grants}
+              />
+              <Route
+                path="/saisivakumarp/saisivakumar.github.io/awards"
+                component={Awards}
+              />
+              <Route
+                path="/saisivakumarp/saisivakumar.github.io/service"
+                component={Service}
+              />
+              <Route
+                path="/saisivakumarp/saisivakumar.github.io/gallery"
+                component={Gallery}
+              />
             </Switch>
             <Footer></Footer>
           </div>

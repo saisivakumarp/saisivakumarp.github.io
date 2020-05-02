@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RamyaPayyavula/Profiler.git"
+    "url": "git+https://github.com/saisivakumarp/saisivakumar.github.io.git"
   },
   "keywords": [
     "y"
@@ -24,9 +24,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RamyaPayyavula/Profiler/issues"
+    "url": "https://github.com/saisivakumarp/saisivakumar.github.io/issues"
   },
-  "homepage": "https://github.com/RamyaPayyavula/Profiler/home",
+  "homepage": "https://github.com/saisivakumarp/saisivakumar.github.io/home",
   "devDependencies": {
     "gh-pages": "^2.2.0",
     "eslint": "^6.7.1",
