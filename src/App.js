@@ -24,18 +24,52 @@ export const App = () => {
           <div className="main-container">
             <Navigation></Navigation>
             <Switch>
-              <Route path="/" component={Home} exact />
-              <Route path="/home" component={Home} />
-              <Route path="/courses" component={Courses} />
-              <Route path="/philosophy" component={Philosophy} />
-              <Route path="/interests" component={Interests} />
-              <Route path="/publications" component={Publications} />
-              <Route path="/people" component={People} />
-              <Route path="/activities" component={Activities} />
-              <Route path="/grants" component={Grants} />
-              <Route path="/awards" component={Awards} />
-              <Route path="/service" component={Service} />
-              <Route path="/gallery" component={Gallery} />
+              <Route
+                path={process.env.PUBLIC_URL + "/"}
+                component={Home}
+                exact
+              />
+              <Route path={process.env.PUBLIC_URL + "/home"} component={Home} />
+              <Route
+                path={process.env.PUBLIC_URL + "/courses"}
+                component={Courses}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/philosophy"}
+                component={Philosophy}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/interests"}
+                component={Interests}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/publications"}
+                component={Publications}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/people"}
+                component={People}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/activities"}
+                component={Activities}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/grants"}
+                component={Grants}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/awards"}
+                component={Awards}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/service"}
+                component={Service}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/gallery"}
+                component={Gallery}
+              />
             </Switch>
             <Footer></Footer>
           </div>

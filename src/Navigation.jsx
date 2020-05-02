@@ -23,32 +23,32 @@ class Navigation extends React.Component {
     const researchDropDownList = [
       {
         label: "Interests",
-        link: "/interests",
+        link: `${process.env.PUBLIC_URL}/interests`,
       },
       {
         label: "Publications",
-        link: "/publications",
+        link: `${process.env.PUBLIC_URL}/publications`,
       },
-      { label: "People", link: "/people" },
+      { label: "People", link: `${process.env.PUBLIC_URL}/people` },
     ];
 
     const teachingDropDownList = [
       {
         label: "Courses",
-        link: "/courses",
+        link: `${process.env.PUBLIC_URL}/courses`,
       },
       {
         label: "Philosophy & Diversity",
-        link: "/philosophy",
+        link: `${process.env.PUBLIC_URL}/philosophy`,
       },
     ];
 
     const accoladesDropDownList = [
       {
         label: "Awards & Scholarships",
-        link: "/awards",
+        link: `${process.env.PUBLIC_URL}/awards`,
       },
-      { label: "Grants", link: "/grants" },
+      { label: "Grants", link: `${process.env.PUBLIC_URL}/grants` },
     ];
 
     const customClassName = this.props.isMobile
@@ -59,7 +59,7 @@ class Navigation extends React.Component {
       <ul className={customClassName}>
         <li className="list-item">
           <Link
-            to={"/home"}
+            to={process.env.PUBLIC_URL + "/home"}
             className="dropdown-wrapper"
             onClick={this.onClickCallback}
           >
@@ -84,7 +84,7 @@ class Navigation extends React.Component {
         </li>
         <li className="list-item">
           <Link
-            to={"/activities"}
+            to={process.env.PUBLIC_URL + "/activities"}
             className="dropdown-wrapper"
             onClick={this.onClickCallback}
           >
@@ -102,7 +102,7 @@ class Navigation extends React.Component {
         </li>
         <li className="list-item">
           <Link
-            to={"/service"}
+            to={process.env.PUBLIC_URL + "/service"}
             className="dropdown-wrapper"
             onClick={this.onClickCallback}
           >
@@ -111,7 +111,7 @@ class Navigation extends React.Component {
         </li>
         <li className="list-item">
           <Link
-            to={"/gallery"}
+            to={process.env.PUBLIC_URL + "/gallery"}
             className="dropdown-wrapper"
             onClick={this.onClickCallback}
           >
