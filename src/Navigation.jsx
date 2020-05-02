@@ -23,32 +23,32 @@ class Navigation extends React.Component {
     const researchDropDownList = [
       {
         label: "Interests",
-        link: "/saisivakumarp/saisivakumar.github.io/interests",
+        link: "/interests",
       },
       {
         label: "Publications",
-        link: "/saisivakumarp/saisivakumar.github.io/publications",
+        link: "/publications",
       },
-      { label: "People", link: "/saisivakumarp/saisivakumar.github.io/people" },
+      { label: "People", link: "/people" },
     ];
 
     const teachingDropDownList = [
       {
         label: "Courses",
-        link: "/saisivakumarp/saisivakumar.github.io/courses",
+        link: "/courses",
       },
       {
         label: "Philosophy & Diversity",
-        link: "/saisivakumarp/saisivakumar.github.io/philosophy",
+        link: "/philosophy",
       },
     ];
 
     const accoladesDropDownList = [
       {
         label: "Awards & Scholarships",
-        link: "/saisivakumarp/saisivakumar.github.io/awards",
+        link: "/awards",
       },
-      { label: "Grants", link: "/saisivakumarp/saisivakumar.github.io/grants" },
+      { label: "Grants", link: "/grants" },
     ];
 
     const customClassName = this.props.isMobile
@@ -59,7 +59,7 @@ class Navigation extends React.Component {
       <ul className={customClassName}>
         <li className="list-item">
           <Link
-            to={"/saisivakumarp/saisivakumar.github.io/home"}
+            to={"/home"}
             className="dropdown-wrapper"
             onClick={this.onClickCallback}
           >
@@ -84,7 +84,7 @@ class Navigation extends React.Component {
         </li>
         <li className="list-item">
           <Link
-            to={"/saisivakumarp/saisivakumar.github.io/activities"}
+            to={"/activities"}
             className="dropdown-wrapper"
             onClick={this.onClickCallback}
           >
@@ -102,7 +102,7 @@ class Navigation extends React.Component {
         </li>
         <li className="list-item">
           <Link
-            to={"/saisivakumarp/saisivakumar.github.io/service"}
+            to={"/service"}
             className="dropdown-wrapper"
             onClick={this.onClickCallback}
           >
@@ -111,7 +111,7 @@ class Navigation extends React.Component {
         </li>
         <li className="list-item">
           <Link
-            to={"/saisivakumarp/saisivakumar.github.io/gallery"}
+            to={"/gallery"}
             className="dropdown-wrapper"
             onClick={this.onClickCallback}
           >
